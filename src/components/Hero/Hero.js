@@ -4,7 +4,7 @@ function Hero() {
     return (
         <section className="hero">
             <p className="hero-subtitulo">Psicologia Clínica</p>
-            <h1>Dra. Belline</h1>
+            <h1>Dra. Bellini</h1>
             <p className="hero-especialidade">Especialista em Ansiedade e Autoconhecimento</p>
             <p className="hero-descricao">
                 Um espaço seguro para você se reconectar consigo mesmo,

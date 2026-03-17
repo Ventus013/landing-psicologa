@@ -11,7 +11,7 @@
 }
 
 .contato-info h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: normal;
   color: #2c4a3a;
   margin-bottom: 0.5rem;
@@ -19,7 +19,7 @@
 
 .contato-info p {
   color: #7a9a8a;
-  font-size: 0.85rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
@@ -33,7 +33,7 @@
 }
 
 .contato-item span:first-child {
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #7a9a8a;
@@ -43,7 +43,7 @@
 .contato-item span:last-child {
   color: #2c4a3a;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .contato-item a:hover {
@@ -63,7 +63,7 @@
   border: 1px solid #e8e0d8;
   border-radius: 4px;
   font-family: 'Jost', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   color: #2c2c2a;
   background: #faf8f5;
   outline: none;
@@ -87,7 +87,7 @@
   border: none;
   border-radius: 50px;
   font-family: 'Jost', sans-serif;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   cursor: pointer;
   align-self: flex-start;
   letter-spacing: 0.5px;
@@ -117,7 +117,7 @@
 @media (max-width: 768px) {
   .contato {
     flex-direction: column;
-    padding: 4rem 1.5rem;
+    padding: 2rem 1.5rem;
     gap: 2rem;
   }
 

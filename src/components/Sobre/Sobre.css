@@ -7,14 +7,14 @@
 }
 
 .sobre-texto h2 {
-  font-size: 2.5rem;
+  font-size: 4cqb;
   font-weight: normal;
   color: #2c4a3a;
   margin-bottom: 0.5rem;
 }
 
 .sobre-texto h3 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: normal;
   color: #7a9a8a;
   letter-spacing: 2px;
@@ -26,13 +26,13 @@
   color: #6a7a6a;
   line-height: 1.9;
   margin-bottom: 1.2rem;
-  font-size: 1.05rem;
-  max-width: 540px;
+  font-size: 2rem;
+  max-width: 70rem;
 }
 
 .sobre-foto {
-  width: 25rem;
-  height: 25rem;
+  width: 50rem;
+  height: 50rem;
   border-radius: 4px;
   background: #e8f0eb;
   flex-shrink: 0;
@@ -57,6 +57,10 @@
   }
 
   .sobre-texto h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+
+  .sobre-texto p {
+    font-size: 1.05rem;
   }
 }
