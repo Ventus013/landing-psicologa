@@ -31,8 +31,8 @@
 }
 
 .sobre-foto {
-  width: 320px;
-  height: 400px;
+  width: 25rem;
+  height: 25rem;
   border-radius: 4px;
   background: #e8f0eb;
   flex-shrink: 0;
@@ -41,4 +41,22 @@
   justify-content: center;
   color: #7a9a8a;
   font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .sobre {
+    flex-direction: column;
+    padding: 4rem 1.5rem;
+    gap: 2rem;
+  }
+
+  .sobre-foto {
+    width: 100%;
+    height: 260px;
+    flex-shrink: unset;
+  }
+
+  .sobre-texto h2 {
+    font-size: 2rem;
+  }
 }
