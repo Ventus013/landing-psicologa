@@ -1,0 +1,54 @@
+.hero {
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(160deg, #f0ebe3 0%, #e8f0eb 100%);
+}
+
+.hero-subtitulo {
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  color: #7a9a8a;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: normal;
+  color: #2c4a3a;
+  margin-bottom: 1rem;
+}
+
+.hero-especialidade {
+  font-size: 1.1rem;
+  color: #5a6a5a;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-descricao {
+  max-width: 520px;
+  color: #6a7a6a;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  font-size: 1.05rem;
+}
+
+.hero-botao {
+  background: #5a7a6a;
+  color: #ffffff;
+  padding: 1rem 2.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.hero-botao:hover {
+  background: #4a6a5a;
+}

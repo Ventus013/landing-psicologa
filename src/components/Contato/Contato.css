@@ -1,0 +1,115 @@
+.contato {
+  padding: 6rem 8rem;
+  background: #ffffff;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+.contato-info {
+  flex: 1;
+}
+
+.contato-info h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #2c4a3a;
+  margin-bottom: 0.5rem;
+}
+
+.contato-info p {
+  color: #7a9a8a;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.contato-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+.contato-item span:first-child {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #7a9a8a;
+}
+
+.contato-item a,
+.contato-item span:last-child {
+  color: #2c4a3a;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.contato-item a:hover {
+  color: #5a7a6a;
+}
+
+.contato-formulario {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contato-formulario input,
+.contato-formulario textarea {
+  padding: 0.9rem 1rem;
+  border: 1px solid #e8e0d8;
+  border-radius: 4px;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.95rem;
+  color: #2c2c2a;
+  background: #faf8f5;
+  outline: none;
+  width: 100%;
+}
+
+.contato-formulario input:focus,
+.contato-formulario textarea:focus {
+  border-color: #5a7a6a;
+}
+
+.contato-formulario textarea {
+  height: 140px;
+  resize: vertical;
+}
+
+.contato-botao {
+  background: #5a7a6a;
+  color: #ffffff;
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  align-self: flex-start;
+  letter-spacing: 0.5px;
+}
+
+.contato-botao:hover {
+  background: #4a6a5a;
+}
+
+.contato-mapa {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  border: 1px solid #e8e0d8;
+  margin-top: 1rem;
+}
+
+.mensagem-enviada {
+  color: #5a7a6a;
+  font-size: 0.95rem;
+  padding: 1rem;
+  background: #e8f0eb;
+  border-radius: 4px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.sobre {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 8rem;
+  background: #ffffff;
+}
+
+.sobre-texto h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #2c4a3a;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-texto h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #7a9a8a;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.sobre-texto p {
+  color: #6a7a6a;
+  line-height: 1.9;
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+  max-width: 540px;
+}
+
+.sobre-foto {
+  width: 320px;
+  height: 400px;
+  border-radius: 4px;
+  background: #e8f0eb;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7a9a8a;
+  font-size: 0.9rem;
+}
