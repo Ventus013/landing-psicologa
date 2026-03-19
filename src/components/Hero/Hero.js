@@ -12,7 +12,7 @@ function Hero(whatsapp) {
                 </p>
                 <a href={`https://wa.me/${whatsapp}`} className="hero-botao">Agendar Consulta</a>
             </div>
-            <img className="hero-logo" src="/logo.png" />
+            <img className="hero-logo" src="/logo.png" alt="logo"/>
         </section>
     );
 }

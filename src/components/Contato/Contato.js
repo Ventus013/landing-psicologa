@@ -50,6 +50,7 @@ function Contato({ whatsapp, email, endereco }) {
         </div>
 
         <iframe
+        title='Mapa do consultorio'
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9190.97080468614!2d-47.628470750000005!3d-22.719992749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631b9aeb833cf%3A0xe84c0dff11bed9f0!2sVila%20Independencia%2C%20Piracicaba%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1773879462166!5m2!1spt-BR!2sbr"
           width="600"
           height="400"
