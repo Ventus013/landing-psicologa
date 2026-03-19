@@ -8,7 +8,7 @@ function Hero(whatsapp) {
                 <p className="hero-subtitulo">Psicologia Clínica</p>
                 <p className="hero-descricao">
                     Um espaço seguro para você se reconectar consigo mesmo,
-                    trabalhar suas emoções e construir uma vida mais equilibrada.
+                    trabalhar suas emoções e construir uma vida mais equilibrada
                 </p>
                 <a href={`https://wa.me/${whatsapp}`} className="hero-botao">Agendar Consulta</a>
             </div>
