@@ -1,16 +1,18 @@
 import "./Hero.css"
 
-function Hero() {
+function Hero(whatsapp) {
     return (
         <section className="hero">
-            <p className="hero-subtitulo">Psicologia Clínica</p>
-            <h1>Dra. Bellini</h1>
-            <p className="hero-especialidade">Especialista em Ansiedade e Autoconhecimento</p>
-            <p className="hero-descricao">
-                Um espaço seguro para você se reconectar consigo mesmo,
-                trabalhar suas emoções e construir uma vida mais equilibrada.
-            </p>
-            <a href="#contato" className="hero-botao">Agendar Consulta</a>
+            <div className="hero-conteudo">
+                <h1 className="hero-titulo">Vitoria Bellini</h1>
+                <p className="hero-subtitulo">Psicologia Clínica</p>
+                <p className="hero-descricao">
+                    Um espaço seguro para você se reconectar consigo mesmo,
+                    trabalhar suas emoções e construir uma vida mais equilibrada.
+                </p>
+                <a href={`https://wa.me/${whatsapp}`} className="hero-botao">Agendar Consulta</a>
+            </div>
+            <img className="hero-logo" src="/logo.png" />
         </section>
     );
 }

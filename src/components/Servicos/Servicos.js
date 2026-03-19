@@ -4,17 +4,17 @@ const listaServicos = [
   {
     id: 1,
     titulo: 'Terapia Individual',
-    descricao: 'Atendimento personalizado para adultos que buscam autoconhecimento, superação de crises e desenvolvimento pessoal.'
+    descricao: 'Atendimento personalizado para promover autoconhecimento, equilíbrio emocional e desenvolvimento pessoal.'
   },
   {
     id: 2,
-    titulo: 'Ansiedade e Estresse',
-    descricao: 'Tratamento especializado para transtornos de ansiedade, síndrome do pânico e estresse crônico.'
+    titulo: 'Atendimento de crianças e adolescentes',
+    descricao: 'Apoio psicológico para o desenvolvimento emocional, comportamento e desafios da infância e adolescência.'
   },
   {
     id: 3,
-    titulo: 'Terapia de Casal',
-    descricao: 'Espaço seguro para casais trabalharem a comunicação, resolverem conflitos e fortalecerem o relacionamento.'
+    titulo: 'Atendimento de crianças e adolescentes',
+    descricao: 'Acompanhamento especializado no tratamento da dependência, focando na recuperação e qualidade de vida.'
   }
 ];
 

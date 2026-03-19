@@ -1,7 +1,10 @@
 import { useState } from 'react';
 import './Contato.css';
 
+
 function Contato({ whatsapp, email, endereco }) {
+
+  const numeroLimpo = whatsapp.replace(/\D/g, '');
 
   // useState para guardar o que o usuário digita no formulário
   const [nome, setNome] = useState('');
@@ -16,7 +19,7 @@ function Contato({ whatsapp, email, endereco }) {
 
     // Monta o link do WhatsApp com os dados preenchidos
     const texto = `Olá! Meu nome é ${nome}. ${mensagem}`;
-    const link = `https://wa.me/${whatsapp}?text=${encodeURIComponent(texto)}`;
+    const link = `https://wa.me/${numeroLimpo}?text=${encodeURIComponent(texto)}`;
     window.open(link, '_blank');
 
     setEnviado(true);
@@ -31,7 +34,7 @@ function Contato({ whatsapp, email, endereco }) {
 
         <div className="contato-item">
           <span>WhatsApp</span>
-          <a href={`https://wa.me/${whatsapp}`} target="_blank" rel="noreferrer">
+          <a href={`https://wa.me/${numeroLimpo}`} target="_blank" rel="noreferrer">
             {whatsapp}
           </a>
         </div>
@@ -46,14 +49,15 @@ function Contato({ whatsapp, email, endereco }) {
           <span>{endereco}</span>
         </div>
 
-        {/* Mapa do Google Maps embutido via iframe */}
         <iframe
-          className="contato-mapa"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973648617747!2d-46.6522!3d-23.5646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzUyLjYiUyA0NsKwMzknMDcuOSJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000"
-          allowFullScreen=""
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9190.97080468614!2d-47.628470750000005!3d-22.719992749999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631b9aeb833cf%3A0xe84c0dff11bed9f0!2sVila%20Independencia%2C%20Piracicaba%20-%20SP!5e1!3m2!1spt-BR!2sbr!4v1773879462166!5m2!1spt-BR!2sbr"
+          width="600"
+          height="400"
+          style={{ border: 0 }}
+          allowFullScreen
           loading="lazy"
-          title="Localização"
-        />
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
 
       <div className="contato-formulario">

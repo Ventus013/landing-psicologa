@@ -81,7 +81,7 @@
 }
 
 .contato-botao {
-  background: #5a7a6a;
+  background: #5BADA0;
   color: #ffffff;
   padding: 0.9rem 2rem;
   border: none;
@@ -91,10 +91,15 @@
   cursor: pointer;
   align-self: flex-start;
   letter-spacing: 0.5px;
+  transform: translate(0);
+  opacity: 1;
+  transition: all 0.3s ease;
 }
 
 .contato-botao:hover {
-  background: #4a6a5a;
+  background: #66ca98;
+  transform: translate(-5px);
+  opacity: 0.8;
 }
 
 .contato-mapa {

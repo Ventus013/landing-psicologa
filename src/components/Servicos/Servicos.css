@@ -1,18 +1,31 @@
 .servicos {
   padding: 6rem 8rem;
-  background: #faf8f5;
   text-align: center;
+  background: linear-gradient(160deg, #e6f3ef 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.servicos::before {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(70, 235, 199, 0.2) 0%, transparent 70%);
+  top: -200px;
+  right: -100px;
 }
 
 .servicos-titulo {
   font-size: 4rem;
-  font-weight: normal;
-  color: #2c4a3a;
+  font-weight: bold;
+  color: #333333;
   margin-bottom: 0.5rem;
 }
 
 .servicos-subtitulo {
-  color: #7a9a8a;
+  color: #6BB5A8;
   margin-bottom: 3rem;
   font-size: 1.5rem;
   letter-spacing: 2px;
@@ -22,7 +35,7 @@
 .servicos-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .servico-card {
@@ -36,7 +49,7 @@
 .servico-card h3 {
   font-size: 3rem;
   font-weight: normal;
-  color: #2c4a3a;
+  color: #6BB5A8;
   margin-bottom: 1rem;
 }
 
