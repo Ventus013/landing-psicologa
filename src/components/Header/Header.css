@@ -1,5 +1,3 @@
-
-
 .header {
     background-color: #fff;
     padding: 0.5rem 0.5rem;
@@ -32,4 +30,10 @@
   transform: translate(-5px);
   opacity: 0.8;
   color: #66ca98;
+}
+
+@media (max-width: 768px) {
+  .header-nav a {
+    font-size: 1.2rem;
+  }
 }

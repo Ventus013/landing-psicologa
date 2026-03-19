@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Hero />
+      <Hero whatsapp={"(55) (19) 99868-0505"}/>
       <Sobre
         nome="Vitoria Bellini"
         crp="CRP 06/156375"
@@ -26,7 +26,7 @@ function App() {
       />
       <Servicos />
       <Contato
-        whatsapp="(55) (19) 99426-5667"
+        whatsapp="(55) (19) 99868-0505"
         email="exemplo@gmail.com"
         endereo="Rua das Flores, 123 — São Paulo, SP"
       />

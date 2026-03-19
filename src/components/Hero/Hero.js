@@ -1,6 +1,9 @@
 import "./Hero.css"
 
-function Hero(whatsapp) {
+function Hero({whatsapp}) {
+
+    const numeroLimpo = whatsapp.replace(/\D/g, '');
+
     return (
         <section className="hero">
             <div className="hero-conteudo">
@@ -10,7 +13,7 @@ function Hero(whatsapp) {
                     Um espaço seguro para você se reconectar consigo mesmo,
                     trabalhar suas emoções e construir uma vida mais equilibrada
                 </p>
-                <a href={`https://wa.me/${whatsapp}`} className="hero-botao">Agendar Consulta</a>
+                <a href={`https://wa.me/${numeroLimpo}`} className="hero-botao">Agendar Consulta</a>
             </div>
             <img className="hero-logo" src="/logo.png" alt="logo"/>
         </section>
